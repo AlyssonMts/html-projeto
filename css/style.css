@@ -1,0 +1,109 @@
+/* Estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Cor de fundo */
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    padding: 20px;
+}
+
+/* Estilos para os textos no conteúdo */
+main p {
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+main h2 {
+    margin-bottom: 10px;
+}
+
+/* Estilos para as imagens no conteúdo */
+main img {
+    display: block;
+    margin: 0 auto 20px; /* Centralizar imagem */
+    max-width: 100%; /* Imagens responsivas */
+}
+
+/* Estilos para o aside */
+aside {
+    float: right;
+    width: 30%;
+    padding: 20px;
+    background-color: #444;
+    color: #fff;
+}
+
+aside h2 {
+    margin-bottom: 10px;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin-bottom: 10px;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilos para o link no rodapé */
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos para o botão no rodapé */
+footer button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+footer button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para o navegador de links */
+nav {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
