@@ -9,15 +9,13 @@
     <link rel="stylesheet" href="../css/style.css">
     <title> Jogos</title>
 </head>
-<style>
-
-</style>
 <body>
-
-
     <header >
+
  <h1><i>O fascinante mundo dos jogos!</i></h1>
-    </header>        
+ 
+    </header>    
+
  <main>
 <p><i>Jogos sempre foram uma parte importante da cultura humana, 
 desde os tempos antigos até os dias de hoje. Seja para entretenimento, competição ou aprendizado, os jogos desempenham um papel
@@ -60,16 +58,37 @@ uma série de benefícios. Eles podem melhorar habilidades cognitivas, como raci
  <ul>
 <li><a href="../artigo1.html/artigo1.html"> jogos de corrida</a></li>
 <li><a href="../artigo1.html/artigo2.html">Jogos de luta</a></li>
-
- </ul>
-
 </aside>
 <footer>
 <p>&copy;<b>Meu site, todos direitos reservados. 14/03/2024</b></p>
 </footer>
 <nav>
-<p> <a href=""></a></p>
-
+<p><a href="#topo">voltar ao topo</a></p>
 </nav>
+<h2>minhas redes sociais são:</h2>
+<li>
+<img src="../img/icone-instagram.png" alt="icone-instagram"> <a href="https://www.instagram.com/alyssonz_m">meu instagram</a> - segue lá meu insta
+</li>
+<li>
+    <img src="../img/icone-github.png" alt="icone-github"> <a href="https://github.com/AlyssonMts/projeto1.git">repositório do git</a> - entra no meu repositório
+</li>
+<script>
+   window.addEventListener("scroll", function() {
+       let voltarAoTopo = document.querySelector("nav");
+       if (window.pageYOffset > 100) {
+           voltarAoTopo.style.display = "block";
+       } else {
+           voltarAoTopo.style.display = "none";
+       }
+   });
+
+   document.querySelector("nav a").addEventListener("click", function(event) {
+       event.preventDefault();
+       window.scrollTo({
+           top: 0,
+           behavior: "smooth"
+       });
+   });
+</script>
 </body>
 </html>
